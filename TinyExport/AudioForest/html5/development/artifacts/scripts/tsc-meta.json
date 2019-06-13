@@ -1,0 +1,63 @@
+{
+    "Success": true,
+    "Diagnostics": [],
+    "Systems": [
+        {
+            "Name": "AudioInputSystem",
+            "QualifiedName": "game.AudioInputSystem",
+            "Description": "",
+            "Source": {
+                "File": "D:/Projects/Unity/Playable Ad/Assets/TinySamples/AudioForest/Scripts/AudioInputSystem.ts",
+                "Line": 5,
+                "Character": 15
+            },
+            "ExecuteAfter": [
+                "ut.Shared.UserCodeStart"
+            ],
+            "ExecuteBefore": [
+                "ut.Shared.UserCodeEnd"
+            ]
+        }
+    ],
+    "Filters": [],
+    "Behaviours": [],
+    "Performance": [
+        {
+            "Key": "tsconfig",
+            "Description": "Time taken to read and parse the given tsconfig.json file",
+            "Duration": 94,
+            "Steps": 1
+        },
+        {
+            "Key": "checksum",
+            "Description": "Time taken to compute the MD5 of all inputs",
+            "Duration": 195,
+            "Steps": 1
+        },
+        {
+            "Key": "compile",
+            "Description": "Time taken to compile the TypeScript program",
+            "Duration": 1282,
+            "Steps": 10
+        },
+        {
+            "Key": "emit",
+            "Description": "Time taken to generate and write the JavaScript output",
+            "Duration": 71,
+            "Steps": 2
+        },
+        {
+            "Key": "metadata",
+            "Description": "Time taken to reflect Tiny metadata from the compiled program",
+            "Duration": 5,
+            "Steps": 1
+        }
+    ],
+    "SourceFiles": [
+        "D:/Projects/Unity/Playable Ad/Assets/TinySamples/AudioForest/Scripts/AudioInputSystem.ts",
+        "D:/Projects/Unity/Playable Ad/Library/PackageCache/com.unity.tiny@0.14.1-preview/Runtime/Modules/UTiny.EntityGroup/Scripts/EntityGroup.ts",
+        "D:/Projects/Unity/Playable Ad/Library/PackageCache/com.unity.tiny@0.14.1-preview/Runtime/Modules/UTiny.EntityGroup/Scripts/EntityLookupCache.ts"
+    ],
+    "InputHash": "52fc2f980da18eb5537015cc5f9d2088",
+    "GeneratedAt": "Thu Jun 13 2019 10:32:18 GMT+0530 (India Standard Time)"
+}
